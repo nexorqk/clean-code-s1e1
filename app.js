@@ -50,7 +50,7 @@ var createNewTaskElement=function(taskString){
   deleteButtonImg.alt='delete icon';
   deleteButton.appendChild(deleteButtonImg);
 
-  listItem.className='list';
+  listItem.className='task-list__item';
 
 
   //and appending.
